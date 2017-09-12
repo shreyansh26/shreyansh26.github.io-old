@@ -1,2 +1,2 @@
-# shubham-goel.github.io
+# shreyansh26.github.io
 My Personal Webpage
