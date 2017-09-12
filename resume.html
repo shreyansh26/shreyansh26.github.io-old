@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Shreyansh's Resume</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700,400,500,600' rel='stylesheet' type='text/css'>
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+	<!-- ==============BODY==============  -->
+<body  style="background:url(images/images.jpg) ; background-size:cover; height: 100%">
+	<header>
+			<div class="container">
+				<a href="#" data-activates="slide-out" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only">
+					<i class="small black-text mdi-navigation-menu"></i>
+				</a>
+				<p class="hide-on-large-only">Click <a href="Shreyansh_Singh_Resume.pdf">here</a> to Download</p>
+			</div>
+			<div style="width: 290px;" id="slide-out" class="side-nav fixed">
+				<div class="hide-on-small-only" style="height:10%;">
+
+				</div>
+				<div class="right-align"  style="margin-top:0%; margin-right:8%; margin-left:4%;" >
+					<h3 class="thin" id="side_name">Shreyansh Singh</h3>
+					<!-- <h7>Computer Scientist</h7> <br> -->
+					<h7>IIT (BHU), Varanasi</h7>
+				</div>
+				<div style="height:8%;" class="hide-on-small-only">
+
+				</div>
+				<ul>
+					<li><a class="waves-effect waves-light waves-ripple" href="index.html" style="margin-left:4%">Home</a></li>
+					<li><a class="waves-effect waves-light waves-ripple" href="aboutMe.html" style="margin-left:4%">About Me</a></li>
+					<li><a class="waves-effect waves-light waves-ripple" href="projects.html" style="margin-left:4%">Projects</a></li>
+					<li class="active teal lighten-3"><a class="waves-effect waves-light waves-ripple" href="resume.html" style="margin-left:4%">Resume</a></li>
+					<li><a class="waves-effect waves-light waves-ripple" href="contact.html" style="margin-left:4%">Contact</a></li>
+				</ul>
+			</div>
+	</header>
+
+	<main style="height: 100%">
+			<div class="row" style="height: 100%; margin-bottom: 0px">
+				<div class="col s12 m12 l12" style="height: 100%">
+					<div class="section" style="height: 100%">
+						<iframe
+						class="pdf"
+						webkitallowfullscreen=""
+						mozallowfullscreen=""
+						allowfullscreen=""
+						frameborder="no"
+						width="100%"
+						height="100%"
+						src="pdf.js/web/viewer.html?file=Shreyansh_Singh_Resume.pdf"
+						data-src="Shreyansh_Singh_Resume.pdf">
+							https://shreyansh26.github.io/Shreyansh_Singh_Resume.pdf
+						</iframe>
+					</div>
+				</div>
+			</div>
+	</main>
+
+	<!--  Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#quote").pushpin({ top: $("#img_top").height() });
+			$('.button-collapse').sideNav({
+				menuWidth: 290, // Default is 240
+				edge: 'left', // Choose the horizontal origin
+				// closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			});
+		});
+	</script>
+
+	</body>
+</html>
