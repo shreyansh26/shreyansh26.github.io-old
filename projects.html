@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+	<title>Shubham's Projects</title>
+
+	<!-- CSS  -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300,700,400,500,600' rel='stylesheet' type='text/css'>
+	<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	<link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+	<!-- ==============BODY==============  -->
+<body  style="background:url(images/images.jpg) ; background-size:cover; ">
+	<header>
+	<!-- <img id="img_top" src="images/cs.jpg" style="width:100%;"> -->
+		<div id="img_top" style="background:url(images/3.jpg) ; background-size:cover; ">
+			<div class="container">
+				<a href="#" data-activates="slide-out" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only">
+					<i class="small white-text mdi-navigation-menu"></i>
+				</a>
+			</div>
+			<div class="hide-on-small-only">
+				<br><br><br>
+			</div>
+			<br><br><br>
+			<div class="container">
+				<h2 class="header light white-text">My Projects</h2>
+			</div>
+		</div>
+		<div style="width: 290px;" id="slide-out" class="side-nav fixed">
+			<div class="hide-on-small-only" style="height:10%;">
+
+			</div>
+			<div class="right-align"  style="margin-top:0%; margin-right:8%; margin-left:4%;" >
+				<h3 class="thin" id="side_name">Shreyansh Singh</h3>
+				<!-- <h7>Computer Scientist</h7> <br> -->
+				<h7>IIT (BHU), Varanasi</h7>
+			</div>
+			<div style="height:8%;" class="hide-on-small-only">
+
+			</div>
+			<ul>
+				<li><a class="waves-effect waves-light waves-ripple" href="index.html" style="margin-left:4%">Home</a></li>
+				<li><a class="waves-effect waves-light waves-ripple" href="aboutMe.html" style="margin-left:4%">About Me</a></li>
+				<li class="active teal lighten-3"><a class="waves-effect waves-light waves-ripple" href="projects.html" style="margin-left:4%">Projects</a></li>
+				<li><a class="waves-effect waves-light waves-ripple" href="resume.html" style="margin-left:4%">Resume</a></li>
+				<li><a class="waves-effect waves-light waves-ripple" href="contact.html" style="margin-left:4%">Contact</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<main >
+			<div id="empty_div"></div>
+			<div class="row">
+				<div class="col s12 m9 l9">
+					<div class="container" >
+
+						<div class="section scrollspy" id="RevOpiD">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									Review Opinion Diversification
+									</span><br><span class="card-title grey-text" style="font-size:120%;">
+									Prof. Anil Kumar Singh, IIT (BHU), Varanasi</span><span class="card-title grey-text right" style="font-size:140%;">
+									Autumn 2017</span>
+								</div>
+								<p>
+									Part of the organizing team of RevOpiD, a shared task being organized at IJCNLP 2017 (International
+									Joint Conference on Natural Language Processing, Taipei, Taiwan).The task aims to produce a
+									top-k ranking of product reviews which can sufficiently represent the gist of opinions expressed in all the
+									reviews of that product.<br>
+								Implemented the official baseline for Subtask-B of the shared task.	Also volunteered to annotate gold dataset for the shared task.</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/RevOpiD" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="Wlink">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									Worldlink - Social Networking Website
+									</span><br><span class="card-title grey-text" style="font-size:120%;">
+									Prof. Amrita Chaturvedi, IIT (BHU), Varanasi</span><span class="card-title grey-text right" style="font-size:140%;">
+									Autumn 2017</span>
+								</div>
+								<p>
+									Creating a social networking website (webapp) in Django as a part of my curriculum project.
+									Currently, features include user authentication, profile edit options, posts/blogs creation, like and com-
+ment 							posts, search users, send personal messages and also follow them.</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/Worldlink" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="Twitter">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									Live Twitter Sentiment Analysis
+									</span><span class="card-title grey-text right" style="font-size:140%;">
+									Summer 2017</span>
+								</div>
+								<p>
+									Developed a sentiment analysis module using the Natural Language Toolkit (NLTK). Used voting method involving algorithms like Naı̈ve Bayes Classifier, Multinomial Naı̈ve Bayes Classifier,
+									Stochastic Gradient Descent, Bernoulli Naı̈ve Bayes to make a custom classifier. Used the Twitter Streaming API to get live tweets on a topic and plot a real time graph of sentiment
+									value of the tweet using Matplotlib.
+								</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/Live-Twitter-Sentiment-Analysis" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="Rfb">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									RemindMe FB Messenger Chatbot
+									</span><span class="card-title grey-text right" style="font-size:140%;">
+									Summer 2017</span>
+								</div>
+								<p>
+									Created a Reminder Chatbot for the Facebook Messenger Platform, coded up entirely in Node.js.
+								Added Natural Language Understanding to the bot by using the services of WIT.AI.
+								Also used the non-relational MongoDB to temporarily store reminders of different users until the reminding
+								time after which the reminder is removed from the database.	</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/RemindMe_FBMessenger" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="GPhotos">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									Geophotos Webapp
+									</span><span class="card-title grey-text right" style="font-size:140%;">
+									Summer 2017</span>
+								</div>
+								<p>
+									Created a web application in Django to search and display the Instagram photos
+									uploaded around the world, based on location with real time auto updation of list. It uses the Google
+									Maps API to convert given location to latitude and longitude and then uses the Instagram Media API
+									to get images for that location and display on the webapp.
+								</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/GeoPhotos" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="RAndroid">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									RemindMe Android App
+									</span><br><span class="card-title grey-text" style="font-size:120%;">
+									Microsoft Code.Fun.Do</span><span class="card-title grey-text right" style="font-size:140%;">
+									January 2017</span>
+								</div>
+								<p>
+									<!-- It is a <b>Universal Windows App</b>, a Strategic One-Player Game developed in C Sharp and XAML.<br>
+									This Game led me to win the <i>Microsoft code.fun.do Online Forum</i> <span style="color:orange" ><i class="material-icons">insert_emoticon</i></span><br>
+									<br>
+									It uses Data Structures for different species, potions and industries and implements <b>Differential Equations</b> for Trophic Dynamics. The Player dispenses potions to species to counter-act the poison (dispensed by the Aritificial Intelligence) and prevent Extinction.<br>
+									Sustenance portrays something as indispensable and vulnerable as the <b>Environment</b> in fun-loving way, while serving multiple purposes – <b>Education</b>, Awareness and Entertainment. -->
+									Created a basic Reminder application in Android Studio capable of reading the reminder from the user
+									and displaying it in the notification bar of the phone.
+								</p>
+								<p>Added features to repeat the notification after a specific time interval and also to add a deadline for the
+									notification.</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/RemindMe-Android-App" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+
+						</div>
+
+						<div class="section scrollspy" id="Wbot">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									WeatherBot CLI
+									</span><span class="card-title grey-text right" style="font-size:140%;">
+									Summer 2017</span>
+								</div>
+								<p>
+									Created a rule based chatbot with command line interface (CLI) to display current as
+									well as future weather forecast for a place. It uses the Yahoo Weather API to get weather information.								</p>
+							</div>
+							<div class="card-action">
+								<!-- <a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="Download from Windows Store" href="https://www.microsoft.com/en-us/store/apps/subadots" target="_blank">
+									<img src="images/icons/Windows_Store_Logo.png" style="width:30px">
+								</a>
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View Website" href="http://shubham-goel.github.io/SuBa-Dots" target="_blank">
+									<img src="images/icons/web_black.png" style="width:30px">
+								</a> -->
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://github.com/shreyansh26/WeatherBot_CLI" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+						<div class="section scrollspy" id="Pong">
+						<div class="card">
+							<div class="card-content">
+								<div style="display: block;">
+									<span class="card-title black-text">
+									Pong
+									</span><span class="card-title grey-text right" style="font-size:140%;">
+									December 2016</span>
+								</div>
+								<p>
+									Programmed a simplified version of the classic game Pong (dualplayer) in Python. Used the SimpleGUI library to create game elements.
+								</p>
+							</div>
+							<div class="card-action">
+								<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="View on Github" href="https://gist.github.com/shreyansh26/c20b06b392584144a6e1bf9f99284c05" target="_blank">
+									<img src="images/icons/github-circle.png" style="width:30px">
+								</a>
+							</div>
+						</div>
+						</div>
+
+					</div>
+				</div>
+				<!-- <div  class="col hide-on-small-only m3 l3">
+					<div id="quote" class="pinned">
+						<ul class="section table-of-contents">
+							<h6>Ongoing</h6>
+							<li><a href="#Forwarding Schemes in Networks with Probabilistic Faults">Forwarding Schemes in Networks with Probabilistic Faults</a></li>
+							<h6>2016</h6>
+							<li><a href="#Rent a Ride (ReaR): a vehicle rental service">Rent a Ride (ReaR): a vehicle rental service</a></li>
+							<li><a href="#Vector-Valued Image Regularization with PDEs">Vector-Valued Image Regularization with PDEs</a></li>
+							<li><a href="#Bash-Like shell for File Transfer.">Bash-Like shell for File Transfer.</a></li>
+							<li><a href="#tusSAT: A FPGA based SAT solver">tusSAT: A FPGA based SAT solver</a></li>
+							<li><a href="#Movie Recommendation Engine">Movie Recommendation Engine</a></li>
+							<li><a href="#Distributed Hash Breaker">Distributed Hash Breaker</a></li>
+							<li><a href="#YodaAwakens: an Interactive Physics Tutor">YodaAwakens: an Interactive Physics Tutor</a></li>
+							<li><a href="#Simulating Physical Layer">Simulating Physical Layer</a></li>
+							<h6>2015</h6>
+							<li><a href="#Rube Goldberg Machine">Rube Goldberg Machine</a></li>
+							<li><a href="#Django Webapp: Branch Allocation">Django Webapp: Branch Allocation</a></li>
+							<li><a href="#Nodal Domains of Eigenfunctions of Quantum Billiards">Nodal Domains of Eigenfunctions of Quantum Billiards</a></li>
+							<li><a href="#Sustenance">Sustenance</a></li>
+							<li><a href="#SuBa Dots">SuBa Dots</a></li>
+							<h6>2014</h6>
+							<li><a href="#Digital Image Processing">Digital Image Processing</a></li>
+						</ul>
+					</div>
+				</div> -->
+
+				<div class="col hide-on-small-only m3 l3">
+					<div class="toc-wrapper">
+						<div style="height: 1px;">
+							<ul class="section table-of-contents">
+								<h6>Ongoing</h6>
+								<li><a href="#RevOpiD">Review Opinion Diversification</a></li>
+								<li><a href="#Wlink">Worldlink - Social Networking Website</a></li>
+								<h6>2016</h6>
+								<li><a href="#Twitter">Live Twitter Sentiment Analysis</a></li>
+								<li><a href="#Rfb">RemindMe FB Messenger Chatbot</a></li>
+								<li><a href="#GPhotos">GeoPhotos Webapp</a></li>
+								<li><a href="#RAndroid">RemindMe Android App</a></li>
+								<li><a href="#Wbot">WeatherBot CLI</a></li>
+								<li><a href="#Pong">Pong</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+	</main>
+
+	<!-- <div class="row">
+		<div class="col s12 m9 l10">
+			<div id="introduction" class="section scrollspy">
+				<p>Content </p>
+			</div>
+
+			<div id="structure" class="section scrollspy">
+				<p>Content </p>
+			</div>
+
+			<div id="initialization" class="section scrollspy">
+				<p>Content </p>
+			</div>
+		</div>
+		<div class="col hide-on-small-only m3 l2">
+			<ul class="section table-of-contents">
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#structure">Structure</a></li>
+				<li><a href="#initialization">Intialization</a></li>
+			</ul>
+		</div>
+	</div> -->
+
+	<footer class="page-footer red">
+		<div class="container">
+			<div class="row">
+				<div class="col l7 s12">
+					<div class="valign-wrapper">
+						<h5 class="valign grey-text text-lighten-4">Feel Free to get in touch with me anytime</h5>
+					</div>
+				</div>
+				<div class="col l5 s12">
+					<ul class="right">
+						<li>
+							<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="GitHub" href="https://www.github.com/shubham-goel" target="_blank">
+								<img src="images/icons/github-circle.png">
+							</a>
+							<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="Facebook" href="https://www.facebook.com/s.g0el" target="_blank">
+								<img src="images/facebook-box/drawable-mdpi/ic_facebook_box_black_48dp.png">
+							</a>
+							<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="Twitter" href="https://www.twitter.com/goelshubham123" target="_blank">
+								<img src="images/icons/twitter-circle.png">
+							</a>
+							<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="LinkedIn" href="https://www.linkedin.com/goelshubham123" target="_blank">
+								<img src="images/icons/linkedin-box.png">
+							</a>
+							<a class="tooltipped" data-position="bottom" data-delay="10" data-tooltip="Email Me" href="mailto:sgoel160@gmail.com" target="_blank">
+								<img src="images/icons/email.png">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				Last Updated : <span class="red-text text-lighten-3">10 December, 2016</span> <font class="right"> Developed using <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a> </font>
+			</div>
+		</div>
+	</footer>
+
+	<!--  Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="js/materialize.js"></script>
+	<script src="js/init.js"></script>
+	<script>
+		$(document).ready(function(){
+			// $("#quote").pushpin({ top: $("#img_top").height() });
+			$('.button-collapse').sideNav({
+				menuWidth: 290, // Default is 240
+				edge: 'left', // Choose the horizontal origin
+				// closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+			});
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    $('.scrollspy').scrollSpy();
+		});
+	</script>
+
+	</body>
+</html>
